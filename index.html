@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>New order</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; font-family: 'Uncial Antiqua', cursive; overflow: hidden; }
+    body {
+      background: url('https://img1.pixhost.to/images/6957/618408115_decode-barmodss.jpg') no-repeat center center/cover;
+      position: relative;
+    }
+    .overlay {
+      position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+      background: rgba(0, 0, 0, 0.55); z-index: 1;
+    }
+    .container {
+      position: relative; z-index: 2; height: 100%;
+      display: flex; flex-direction: column; justify-content: center;
+      align-items: center; text-align: center; color: #f3f3f3; padding: 20px;
+    }
+    h1 {
+      font-size: 3.5em; text-shadow: 0 0 25px #00ffe5;
+      margin-bottom: 10px; letter-spacing: 2px;
+    }
+    p {
+      font-size: 1.2em; font-family: 'Rajdhani', sans-serif;
+      max-width: 650px; margin-bottom: 40px; color: #dcdcdc;
+      text-shadow: 0 0 10px #000;
+    }
+    .button-group { display: flex; flex-direction: column; gap: 15px; }
+    .btn {
+      padding: 14px 32px; font-size: 1.1em; font-family: 'Rajdhani', sans-serif;
+      border: none; border-radius: 15px; cursor: pointer;
+      background: linear-gradient(45deg, #00ffe5, #007bff); color: #000;
+      box-shadow: 0 0 20px #00ffe5, 0 0 40px #007bff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      width: 260px;
+    }
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 30px #a8ffff, 0 0 50px #00f0ff;
+    }
+    .fog {
+      position: absolute; bottom: 0; width: 100%; height: 200px;
+      background: linear-gradient(to top, rgba(255,255,255,0.12), rgba(255,255,255,0));
+      z-index: 1; pointer-events: none;
+      animation: fogMove 10s ease-in-out infinite alternate;
+    }
+    @keyframes fogMove {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+    .footer {
+      position: absolute; bottom: 15px; z-index: 2;
+      color: #ccc; font-size: 0.9em; font-family: 'Rajdhani', sans-serif;
+      text-shadow: 0 0 5px #000;
+    }
+    @media (max-width: 768px) {
+      h1 { font-size: 2.5em; }
+      p { font-size: 1em; }
+      .btn { font-size: 1em; width: 220px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1>NEW ORDER</h1>
+    <h1>OWNER NY SEKSI LOH</h1>
+    <p>👑 buatlah kerajaan mu dan jadilah seorang raja, kuasai lah dunia.</p>
+    <div class="button-group">
+      <button class="btn" onclick="masuk()">👑 Gabung New Order</button>
+    </div>
+  </div>
+  <div class="footer">KAIZU GWANTENG DAN BAIK CIK</div>
+  <script>
+    function masuk() {
+      window.location.href = "https://chat.whatsapp.com/I2awqh4SPPrGQ826DmdS0Z?mode=ac_t";
+    }
+  </script>
+</body>
+</html>
